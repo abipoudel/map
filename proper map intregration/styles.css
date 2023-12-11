@@ -1,0 +1,105 @@
+.box{
+    border-radius: 10px;
+    background-color: rgb(185, 185, 217);
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    }
+    p{
+        margin-left: 10px;
+        font-family:monospace;
+        padding: 10px;
+        margin-top: 5px;
+        text-decoration: none;
+    }
+    img{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+        color: white;
+    
+    }
+    h1{
+        font-family:monospace;
+        font-weight: bold;
+        display:inline-block;
+        margin-left: 550px;
+        
+    }
+    .places{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust column width as needed */
+        gap: 10px; 
+    }
+    .place{
+    display:  inline-flexbox;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 650px;
+    
+    }
+    a h1{
+        color:  rgb(255, 249, 249);
+    }
+    a p{
+        color: rgb(255, 255, 255);
+    
+    }
+    header{
+       
+      
+     border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+      width: 1300px;
+      height: 200px;
+      background-color: rgb(226, 43, 43);
+    }
+    .highlighted-areas {
+        background-color: rgb(255, 166, 0);
+        padding: 20px; /* Adjust padding as needed */
+        border-radius: 10px;
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+    
+    .yellow-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(900px, 1fr)); /* Adjust column width as needed */
+        gap: 20px; /* Adjust gap as needed */
+        margin: auto;
+        padding: 20px; /* Adjust padding as needed */
+        border-radius: 10px;
+    }
+    
+    /* Adjust individual iframe styling as needed */
+    .yellow-box section {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .green-box {
+        background-color: rgb(237, 250, 120);
+        padding: 20px; /* Adjust padding as needed */
+        border-radius: 10px;
+        margin-top: 40px; /* Adjust margin as needed */
+    }
+    
+    .places {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust column width as needed */
+        gap: 10px; 
+        margin-top: 0; /* Reset top margin */
+        padding-top: 0; /* Reset top padding */
+    }
+    
+    .places p {
+        margin-left: 10px;
+        font-family: monospace;
+        padding: 10px;
+        margin-top: 20; /* Reset top margin */
+        text-decoration: none;
+        color: rgb(0, 0, 0); /* Adjust text color as needed */
+    }
+    
